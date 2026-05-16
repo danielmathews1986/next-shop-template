@@ -13,7 +13,7 @@ interface Props {
 }
 
 
-export default function({ params }: Props) {
+export default function categoryPage({ params }: Props) {
 
   const { id } = params;
   const products = seedProducts.filter( product => product.gender === id );
