@@ -12,7 +12,7 @@ const productsInCart = [
 ];
 
 
-export default function fatherAddressPage() {
+export default function FatherAddressPage() {
   return (
     <div className="flex justify-center items-center mb-72 px-10 sm:px-0">
 
